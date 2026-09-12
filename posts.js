@@ -544,11 +544,11 @@ const PHOTO_BY_TEXT = new Map([
     './media/ariana-v-2014.jpg'
   ],
   [
-    'it is visible in a 2014 photoshoot and somehow cynthia is still the first person who thought to make a big deal of it. the rest of us failed',
+    'the freckle is visible in a 2014 photoshoot and somehow cynthia is still the first person who thought to make a big deal of it. the rest of us failed',
     './media/ariana-v-2014.jpg'
   ],
   [
-    'imagine eating out ariana grande and seeing THAT right there, oh my god it would be bruised from me sucking on it. permanent hickey fr',
+    'imagine eating out ariana grande and seeing THAT freckle right there, oh my god it would be bruised from me sucking on it. permanent hickey fr',
     './media/ariana-v-2014.jpg'
   ]
 ]);
