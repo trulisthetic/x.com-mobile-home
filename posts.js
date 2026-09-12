@@ -527,7 +527,7 @@ const TEXT_POOL = [
   'I thought people were exaggerating about the selling accounts until one just came across my tl with a fucking PRICE LIST.',
   'someone is literally SELLING the videos. like actual money. we have crossed into hell',
   'Someone on my timeline is literally bragging that they made $200 selling the leak. I need this website shut down.',
-  'holy fuck!??!??!?!?!!! WAS I BLIND?!?!?!!?!?!?!',
+  'holy fuck!??!??!?!?!!! WAS I BLIND?!?!?!!?!?!?! Why did i see the freckle for the first time in clip 7 IT WAS THERE THE WHOLE TIME??',
   'There are people COMPETING over who can sell the sex tape cheaper. One account literally quote tweeted another saying “don’t overpay.” I hate everyone.'
 
 
@@ -540,7 +540,7 @@ const PHOTO_BY_TEXT = new Map([
     './media/ariana-v-2014.jpg?v=2'
   ],
   [
-    'holy fuck!??!??!?!?!!! WAS I BLIND?!?!?!!?!?!?!',
+    'holy fuck!??!??!?!?!!! WAS I BLIND?!?!?!!?!?!?! Why did i see the freckle for the first time in clip 7 IT WAS THERE THE WHOLE TIME??',
     './media/ariana-v-2014.jpg?v=2'
   ],
   [
