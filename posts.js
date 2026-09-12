@@ -527,10 +527,31 @@ const TEXT_POOL = [
   'I thought people were exaggerating about the selling accounts until one just came across my tl with a fucking PRICE LIST.',
   'someone is literally SELLING the videos. like actual money. we have crossed into hell',
   'Someone on my timeline is literally bragging that they made $200 selling the leak. I need this website shut down.',
+  'holy fuck!??!??!?!?!!! WAS I BLIND?!?!?!!?!?!?!',
   'There are people COMPETING over who can sell the sex tape cheaper. One account literally quote tweeted another saying “don’t overpay.” I hate everyone.'
 
 
 ];
+
+// Only these exact tweets receive the 2014 photoshoot image.
+const PHOTO_BY_TEXT = new Map([
+  [
+    'WAIT I FOUND IT IN ARIANA’S 2014 V MAGAZINE SHOOT. it has been there the whole time how did we miss that 😭',
+    './media/ariana-v-2014.jpg'
+  ],
+  [
+    'holy fuck!??!??!?!?!!! WAS I BLIND?!?!?!!?!?!?!',
+    './media/ariana-v-2014.jpg'
+  ],
+  [
+    'it is visible in a 2014 photoshoot and somehow cynthia is still the first person who thought to make a big deal of it. the rest of us failed',
+    './media/ariana-v-2014.jpg'
+  ],
+  [
+    'imagine eating out ariana grande and seeing THAT right there, oh my god it would be bruised from me sucking on it. permanent hickey fr',
+    './media/ariana-v-2014.jpg'
+  ]
+]);
 
 // =====================
 // GIF media
@@ -682,10 +703,11 @@ function makeGeneratedPost() {
   const avatarBase = avatarDeck.next();
 
   // Only approved tweets receive a random GIF.
-  const mediaUrl =
-    GIF_ELIGIBLE_TEXTS.has(text) && GIF_POOL.length
-      ? pick(GIF_POOL)
-      : undefined;
+const mediaUrl =
+  PHOTO_BY_TEXT.get(text) ??
+  (GIF_ELIGIBLE_TEXTS.has(text) && GIF_POOL.length
+    ? pick(GIF_POOL)
+    : undefined);
 
   const replies = randInt(0, 19);
   const likes = randInt(1, 4000);
