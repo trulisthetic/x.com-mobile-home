@@ -537,19 +537,19 @@ const TEXT_POOL = [
 const PHOTO_BY_TEXT = new Map([
   [
     'WAIT I FOUND IT IN ARIANA’S 2014 V MAGAZINE SHOOT. it has been there the whole time how did we miss that 😭',
-    './media/ariana-v-2014.jpg'
+    './media/ariana-v-2014.jpg?v=2'
   ],
   [
     'holy fuck!??!??!?!?!!! WAS I BLIND?!?!?!!?!?!?!',
-    './media/ariana-v-2014.jpg'
+    './media/ariana-v-2014.jpg?v=2'
   ],
   [
     'the freckle is visible in a 2014 photoshoot and somehow cynthia is still the first person who thought to make a big deal of it. the rest of us failed',
-    './media/ariana-v-2014.jpg'
+    './media/ariana-v-2014.jpg?v=2'
   ],
   [
     'imagine eating out ariana grande and seeing THAT freckle right there, oh my god it would be bruised from me sucking on it. permanent hickey fr',
-    './media/ariana-v-2014.jpg'
+    './media/ariana-v-2014.jpg?v=2'
   ]
 ]);
 
